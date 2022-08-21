@@ -7,19 +7,19 @@ int xa = 40, ya = 1,
     xc = 80, yc = 60;
 
 Console.SetCursorPosition(xa, ya);
-Console.WriteLine("+");
+Console.Write("+");
 
 Console.SetCursorPosition(xb, yb);
-Console.WriteLine("+");
+Console.Write("+");
 
 Console.SetCursorPosition(xc, yc);
-Console.WriteLine("+");
+Console.Write("+");
 
 int x = xa, y = ya;
 
 int count = 0;
 
-while(count < 10000)
+while(count < 1000000)
 {
     int what = new Random().Next(0,3); //[0, 3)
     if(what ==0)
@@ -38,6 +38,6 @@ while(count < 10000)
         y = (y+yc)/2;
     }
 Console.SetCursorPosition(x, y);
-Console.WriteLine("+");
+Console.Write("+");
 count++;
 }
