@@ -8,7 +8,7 @@ if (number==0)
 }
 else
 {
-if (Math.Abs(number)%2==0)
+if (number%2==0)
 {
     Console.WriteLine($"Число {number} - чётное");
 }
