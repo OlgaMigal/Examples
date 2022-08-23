@@ -43,7 +43,8 @@ int IndexOf(int[] collection, int find)
     return position;
 }
 
-//5. Запускаем метод заполнения для массива array и печатаем его
+//5. Запускаем метод заполнения для массива array и печатаем его,
+// затем переходим на новую строку.
 int[] array = new int[10];
 FillArray(array);
 PrintArray(array);
