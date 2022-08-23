@@ -47,6 +47,7 @@ int IndexOf(int[] collection, int find)
 int[] array = new int[10];
 FillArray(array);
 PrintArray(array);
+Console.PrintLine();
 
 //6. Выводим на печать индекс совпавшего элемента
 int pos = IndexOf(array, 4);
